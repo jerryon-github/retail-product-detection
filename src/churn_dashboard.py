@@ -3,8 +3,11 @@ import pandas as pd
 import joblib
 
 # Load model and features
-model = joblib.load('../model/churn_model.pkl')
-feature_list = joblib.load('../model/feature_list.pkl')
+import os
+
+model = joblib.load(os.path.join("model", "churn_model.pkl"))
+feature_list = joblib.load(os.path.join("model", "feature_list.pkl"))
+
 
 st.title("📊 Customer Churn Predictor")
 
