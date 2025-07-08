@@ -88,5 +88,5 @@ You are free to use, modify, and distribute it with proper attribution.
 
 ## 👤 Author
 
-[Your Full Name]  
-[LinkedIn or GitHub Profile Link]
+[Jerry]  
+[https://github.com/jerryon-github]
